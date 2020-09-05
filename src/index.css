@@ -13,6 +13,7 @@
         height: 250px;
         padding: 20px;
         color: white;
+        background-image: red;
     }
 
     .App-title {
@@ -22,24 +23,29 @@
     .App-intro {
         font-size: large; 
     }
+
 @-webkit-keyframes App-logo-spin {
   from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
   to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
 }
+
 @keyframes App-logo-spin {
   from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
   to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
 }
+
 :root {
     --fontSize: 1rem;
     --mainColor: rgba(18,52,86,0.47059);
     --secondaryColor: rgba(102, 51, 153, 0.9);
 }
+
 html {
     overflow-x: hidden;
     overflow-y: auto;
     overflow: hidden auto;
 }
+
 @media (max-width: 50rem) {
     body {
         color: rgba(18,52,86,0.47059);
@@ -56,16 +62,20 @@ html {
         padding-right: calc(var(--fontSize) / 2 + 1px);
     }
 }
+
 h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 header.App-header, .App-header.main {
     background-size: contain;
 }
+
 a {
     color: #639
 }
+
 a:hover {
         color: color-mod(rgba(102, 51, 153, 0.9) b(15%) a(75%));
         color: color-mod(var(--secondaryColor) b(15%) a(75%));
